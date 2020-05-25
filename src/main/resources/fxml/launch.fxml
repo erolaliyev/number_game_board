@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LaunchController">
+    <children>
+        <Label layoutX="126.0" layoutY="65.0" text="Numbers Game Board" textAlignment="CENTER" textFill="#002366">
+            <font>
+                <Font name="MathJax_Main-Bold" size="36.0" />
+            </font>
+        </Label>
+        <Label layoutX="133.0" layoutY="238.0" text="Username:" />
+        <TextField fx:id="usernameTextfield" layoutX="223.0" layoutY="233.0" prefHeight="26.0" prefWidth="158.0" />
+        <Button fx:id="startButton" layoutX="249.0" layoutY="287.0" mnemonicParsing="false" onAction="#startAction" prefHeight="51.0" prefWidth="105.0" text="Start game" />
+        <Label fx:id="errorLabel" layoutX="223.0" layoutY="200.0" prefHeight="16.0" prefWidth="151.0" textFill="#e30e0e" />
+    </children>
+</Pane>
